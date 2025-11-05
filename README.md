@@ -4,7 +4,7 @@ This project is a comprehensive analysis of the Databel Telecom customer churn d
 
 ## 📈 Final Dashboard
 
-![Databel Churn Dashboard](<img width="1494" height="746" alt="Image" src="https://github.com/user-attachments/assets/c25e4882-2ec7-43be-83d5-8d1bc85cd848" />)
+<img width="1494" height="746" alt="Image" src="https://github.com/user-attachments/assets/c25e4882-2ec7-43be-83d5-8d1bc85cd848" />
 
 ## 💡 Key Insights from the Analysis
 
