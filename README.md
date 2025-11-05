@@ -6,15 +6,29 @@ This project is a comprehensive analysis of the Databel Telecom customer churn d
 
 <img width="1494" height="746" alt="Image" src="https://github.com/user-attachments/assets/c25e4882-2ec7-43be-83d5-8d1bc85cd848" />
 
-## 💡 Key Insights from the Analysis
+## 💡 Key Findings
 
-This dashboard uncovers several critical, actionable insights:
+### Overall Summary
+Our overall churn rate is a high **26.86%**. The problem is being driven by **Seniors (60+)**, who churn at a rate of **38%**. The primary reason they're leaving is for **competitors who offer better devices and prices**. This problem is most severe in **California**.
 
-1.  **Seniors are the Highest-Risk Group:** Customers aged 60+ are the most vulnerable demographic, churning at a rate of **38%**, far higher than any other group.
-2.  **Losing to the Competition:** The **#1 reason** customers leave is for a "competitor's better offer," followed by "competitor's better devices."
-3.  **The "Unlimited Plan" is Failing:** The Unlimited Plan has a *higher* churn rate than limited plans, suggesting a significant problem with its price or perceived value.
-4.  **"International Plan" is a Major Problem:** Customers with the International Plan churn at extremely high rates (e.g., **75% in California**), indicating it's a major source of dissatisfaction.
-5.  **Geographic Hotspots:** Churn is not evenly distributed. States like **California (34.8%)** and **Pennsylvania (33.3%)** are major problem areas that require targeted action.
+### Key Problems
+* **Seniors are the highest-risk group.** Customers aged 60+ are churning at a much higher rate (38%) than any other group.
+* **Losing to competitors.** The #1 reason people leave is for a "**competitor's better offer**," followed by "**better devices**."
+* **"Unlimited Plan" is failing.** It has a *higher* churn rate than your limited plans, which suggests customers don't find it valuable.
+* **Bad Support:** "Attitude of support person" is the **#2 biggest** single reason for churn.
+
+### Deeper Insights
+* More than 1 out of every 4 customers has left.
+* "Unlimited Plan" customers are churning **more** than our other customers, suggesting the plan is not perceived as a good value.
+* "International Plan" **is a huge churn signal**. The churn rates for customers with the plan are extremely high and significantly worse than the churn rates for customers without the plan.
+
+## 🚀 Recommended Action Plan
+
+1.  Create a retention plan specifically for **Seniors**.
+2.  Analyze your **competitors' pricing and device offers** to see why you are losing.
+3.  Fix your **customer support attitude** and re-evaluate your "**Unlimited Plan**" and "**International Plan**" pricing.
+
+---
 
 ## 🛠️ Tools & Methodology
 
@@ -47,11 +61,3 @@ This entire project was conducted in **Microsoft Excel**, leveraging its powerfu
 
 * **Dataset:** [Databel Telecom Customer Churn Dataset on Kaggle](https://www.kaggle.com/datasets/yichienchong/databel-telecom-customer-churn-dataset)
 * **Metadata:** [Databel Metadata Sheet (PDF)](https://assets.datacamp.com/production/repositories/6386/datasets/0d84b751e28911f4a2c51b1a38c0100a55d8037e/Metadata%20Sheet%20-%20Customer%20Churn.pdf)
-
-## 🚀 Recommended Action Plan
-
-Based on the data, the following strategic actions are recommended:
-
-1.  **Create a Retention Plan Specifically for Seniors.**
-2.  **Analyze Competitors' Pricing and Device Offers** to understand why we are losing.
-3.  **Fix Customer Support Attitude** (the #2 reason for churn) and **Re-evaluate the "Unlimited Plan" Pricing.**
